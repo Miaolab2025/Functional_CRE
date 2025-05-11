@@ -8,4 +8,4 @@ GROUP1_DIR="/path/to/C"
 GROUP2_DIR="/path/to/N"
 
 # Run the R script with the input directories as arguments
-Rscript differential_CRE_analysis.R $GROUP1_DIR $GROUP2_DIR
+Rscript ./script/stage_diff_peak.R $GROUP1_DIR $GROUP2_DIR
